@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="css/app.css" />
+    <title>Project</title>    
+    <script src="js/touche-min.js" charset="utf-8"></script>
+    <script src="js/zepto.min.js" charset="utf-8"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+  </head>
+  <body>
+        <div class="page" data-page="inner_1">
+          <div class="divider left"></div>
+        </div>
+        <div class="options" data-page="inner_1">
+          <div class="button" id="leave1" data-js-page="entry"></div>
+          <div class="button" id="explore" data-js-options="optionPanel">Explore</div>
+        </div>
+        <div class="options" id="optionPanel">
+          <div class="option">Option 1</div>
+          <div class="horDivider"></div>
+          <div class="option">Option 2</div>
+          <div class="horDivider"></div>
+          <div class="option">Option 3</div>
+          <div class="horDivider"></div>
+          <div class="option">Option 4</div>
+        </div>
+
+        <div class="page active" data-page="entry">
+          <div class="pageSelect left" data-js-page="inner_1">
+            <img class="icon" src="assets/gov.png">
+            <img class="arrow" src="assets/arrowL.png">
+            <div class="text">Government</div>
+          </div>
+          <div class="logo">
+            Kaon Interactive
+            <div class="circle" id="circle1"></div>
+            <div class="circle" id="circle2"></div>
+            <div class="circle" id="circle3"></div>
+            <div class="circle" id="circle4"></div>
+          </div>
+          <div class="pageSelect right" data-js-page="inner_2">
+            <img class="icon" src="assets/med.png">
+            <img class="arrow" src="assets/arrowR.png">
+            <div class="text">Healthcare</div>
+          </div>
+        </div>
+
+        <div class="page" data-page="inner_2">
+          <div class="divider right"></div>
+        </div>
+        <div class="options" data-page="inner_2">
+          <div class="button" id="leave2" data-js-page="entry"></div>
+          <div class="button" id="optionA2">Option A</div>
+          <div class="button" id="optionB2">Option B</div>
+        </div>
+  </body>
+</html>
